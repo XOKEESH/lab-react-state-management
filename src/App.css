@@ -1,10 +1,97 @@
-ul {
-  display: flex;
-  flex-wrap: wrap;
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
 }
 
-li {
-  list-style: none;
-  margin: 10px;
+h1, h2 {
+  text-align: center;
+  margin-top: 1rem;
+  color: #ffffff;
 }
+
+p {
+  color: #cfcfcf;
+}
+
+.container {
+  width: 100%;
+  margin: 60px;
+  padding: 1rem;
+}
+
+.Header h1 {
+  text-align: left;
+}
+
+.Header h2 {
+  text-align: left;
+}
+
+.team-section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 2rem;
+}
+
+.team-section h2 {
+  text-align: left;
+}
+
+.fighters-section h2 {
+  text-align: left;
+}
+
+.fighters-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.fighter-item, .team-item {
+  border-radius: 8px;
+  width: 150px;
+}
+
+.fighter-item img, .team-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.fighter-list, .team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.fighter-item ul, .team-item ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.fighter-item li, .team-item li {
+  margin: 8px 0;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
 
